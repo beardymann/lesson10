@@ -1,0 +1,122 @@
+.logo {
+	width: 700px;
+	margin-top: 15px;
+}
+
+body, html {
+	width: 100%;
+	height: 100%;
+}
+
+header {
+	position: fixed;
+	top: 0%;
+	right: 0%;
+	z-index: 999;
+}
+
+.container {
+	background-image: url(../img/photo.jpg);
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+}
+
+.navigation-ul {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	margin-top: 20px;
+	margin-left: 100px;
+}
+
+.navigation-a {
+	font-size: 20px;
+	font-family: 'Roboto';
+	color: orchid;
+	margin-right: 25px;
+}
+
+.social-ul {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	margin-top: 25px;
+	margin-left: 200px;
+}
+
+.social-li {
+	margin-right: 40px;
+}
+
+.fa-facebook-f {
+	font-size: 30px;
+	color: blue;
+}
+
+.fa-twitter {
+	font-size: 30px;
+	color: darkblue;
+}
+
+.fa-instagram {
+	font-size: 30px;
+	color: green;
+}
+
+.fa-youtube {
+	font-size: 30px;
+	color: red;
+}
+
+.container2 {
+	background-image: url(../img/photo2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.text {
+	font-size: 70px;
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	color: black;
+	font-family: 'Srisakdi';
+}
+
+.text2 {
+	font-size: 40px;
+	position: absolute;
+	top: 200px;
+	left: 120px;
+	font-family: 'Srisakdi';
+}
+
+.container3 {
+	background-image: url(../img/photo3.jpg);
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	padding: 20px;
+	-ms-flex-pack: distribute;
+	justify-content: space-around;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	background-size: cover;
+}
+
+video {
+	margin-right: 750px;
+}
+
+.map {
+	padding: 40px;
+	background-color: grey;
+}
+
+.map2 {
+	margin-left: 150px;
+}
